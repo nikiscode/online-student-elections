@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vote - Student Election System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 50px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .container {
+            background-color: white;
+            padding: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .candidate {
+            background-color: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select Your Candidate</h1>
+        <div class="candidate">
+            <h3>John Doe</h3>
+            <p>President Candidate</p>
+            <a href="results.html?vote=JohnDoe" class="btn">Vote for John Doe</a>
+        </div>
+        <div class="candidate">
+            <h3>Jane Smith</h3>
+            <p>Vice President Candidate</p>
+            <a href="results.html?vote=JaneSmith" class="btn">Vote for Jane Smith</a>
+        </div>
+        <div class="candidate">
+            <h3>Emma Brown</h3>
+            <p>Secretary Candidate</p>
+            <a href="results.html?vote=EmmaBrown" class="btn">Vote for Emma Brown</a>
+        </div>
+    </div>
+</body>
+</html>
