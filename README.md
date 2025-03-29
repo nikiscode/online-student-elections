@@ -1,3 +1,3 @@
-# "online-student-elections" 
-# "html web-page"
+# "online-student-elections." 
+# "html Web Page."
 
