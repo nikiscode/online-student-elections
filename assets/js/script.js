@@ -1,4 +1,3 @@
-
 document.addEventListener("DOMContentLoaded", function () {
     const voteButton = document.querySelector("button");
     const message = document.getElementById("message");
